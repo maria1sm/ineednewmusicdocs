@@ -43,3 +43,7 @@ h2 {
     background-color: white !important;
     border-color: white !important;
 }
+
+img {
+    border-radius: 20px;
+}

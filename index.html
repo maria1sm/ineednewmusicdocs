@@ -3,24 +3,28 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="newviewport" content="width=device-width, initial-scale=1.0">
     <title>ineedmusic Docs</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5+5hb7O6LCw5Cn5mS9h5f+IK0NL5jQ2ft+Cu5xT"
-        crossorigin="anonymous"></script>
     <link href="css/styles.css" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="/media/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="./media/favicon.png">
+    <style>
+        .diagram {
+            max-width: 300px;
+            max-height: 200px;
+            object-fit: cover;
+        }
+    </style>
 </head>
 
 <body class="h-100">
     <nav class="navbar navbar-expand-lg navbar-light bg-spotify text-white py-3">
         <div class="container">
-            <a class="navbar-brand text-white" href="#">ineedmusic<span class="fw-bold">Docs</span></a>
+            <a class="navbar-brand text-white" href="#">ineednewmusic<span class="fw-bold">Docs</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -30,6 +34,10 @@
                     <li class="nav-item">
                         <a class="nav-link text-white"
                             href="https://github.com/maria1sm/TFG-front/blob/master/README.md">Documentación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white"
+                            href="https://www.figma.com/design/7m8qMj7rrkv59DqWGB6SxW/TFG-INEEDNEWMUSIC?node-id=0-1&t=GeCb3cLT52Qw8Rzr-1">Figma</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-white" href="#" id="reposDropdown" role="button"
@@ -84,55 +92,57 @@
             <section id="use-case-diagram" class="my-5">
                 <h2>Diagrama de Casos de Uso</h2>
                 <p>Descripción breve del diagrama de casos de uso.</p>
-                <img src="images/use-case-diagram.png" class="img-fluid diagram" alt="Diagrama de Casos de Uso"
+                <img src="./media/d_casos_uso.png" class="img-fluid diagram" alt="Diagrama de Casos de Uso"
                     data-bs-toggle="modal" data-bs-target="#diagramModal">
             </section>
 
             <section id="class-diagram" class="my-5">
                 <h2>Diagrama de Clases</h2>
                 <p>Descripción breve del diagrama de clases.</p>
-                <img src="images/class-diagram.png" class="img-fluid diagram" alt="Diagrama de Clases"
-                    data-bs-toggle="modal" data-bs-target="#diagramModal">
+                <img src="./media/a" class="img-fluid diagram" alt="Diagrama de Clases" data-bs-toggle="modal"
+                    data-bs-target="#diagramModal">
             </section>
 
             <section id="er-diagram" class="my-5">
                 <h2>Diagrama Entidad-Relación</h2>
                 <p>Descripción breve del diagrama Entidad-Relación.</p>
-                <img src="images/er-diagram.png" class="img-fluid diagram" alt="Diagrama Entidad-Relación"
+                <img src="./media/d_entidad.png" class="img-fluid diagram" alt="Diagrama Entidad-Relación"
                     data-bs-toggle="modal" data-bs-target="#diagramModal">
             </section>
 
             <section id="component-diagram" class="my-5">
                 <h2>Diagrama de Componentes</h2>
                 <p>Descripción breve del diagrama de componentes.</p>
-                <img src="images/component-diagram.png" class="img-fluid diagram" alt="Diagrama de Componentes"
+                <img src="./media/d_componentes.png" class="img-fluid diagram" alt="Diagrama de Componentes"
                     data-bs-toggle="modal" data-bs-target="#diagramModal">
             </section>
 
             <section id="activity-diagram" class="my-5">
                 <h2>Diagrama de Actividades</h2>
                 <p>Descripción breve del diagrama de actividades.</p>
-                <img src="images/activity-diagram.png" class="img-fluid diagram" alt="Diagrama de Actividades"
+                <img src="./media/d_actividades.png" class="img-fluid diagram" alt="Diagrama de Actividades"
                     data-bs-toggle="modal" data-bs-target="#diagramModal">
             </section>
 
             <section id="sequence-diagram" class="my-5">
                 <h2>Diagrama de Secuencia</h2>
                 <p>Descripción breve del diagrama de secuencia.</p>
-                <img src="images/sequence-diagram.png" class="img-fluid diagram" alt="Diagrama de Secuencia"
+                <img src="./media/d_secuencia.png" class="img-fluid diagram" alt="Diagrama de Secuencia"
                     data-bs-toggle="modal" data-bs-target="#diagramModal">
             </section>
 
             <section id="deployment-diagram" class="my-5">
                 <h2>Diagrama de Despliegue</h2>
                 <p>Descripción breve del diagrama de despliegue.</p>
-                <img src="images/deployment-diagram.png" class="img-fluid diagram" alt="Diagrama de Despliegue"
+                <img src="./media/d_despliegue.png" class="img-fluid diagram" alt="Diagrama de Despliegue"
                     data-bs-toggle="modal" data-bs-target="#diagramModal">
             </section>
 
             <section id="test-cases" class="my-5">
                 <h2>Casos de Prueba</h2>
-                <p>Descripción breve de los casos de prueba.</p>
+                <p>Login con Spotify</p>
+                <p>Inserción en la base de datos</p>
+                <p>Creación correcta de la playlist y guardado en Spotify</p>
             </section>
         </div>
 
@@ -149,10 +159,12 @@
     </div>
 
     <script>
-        // jQuery to handle the image click and show in modal
-        $(document).on('click', '.diagram', function () {
-            var src = $(this).attr('src');
-            $('#modalImage').attr('src', src);
+        // Vanilla JavaScript to handle the image click and show in modal
+        document.querySelectorAll('.diagram').forEach(item => {
+            item.addEventListener('click', event => {
+                const src = event.target.getAttribute('src');
+                document.getElementById('modalImage').setAttribute('src', src);
+            });
         });
     </script>
 </body>
