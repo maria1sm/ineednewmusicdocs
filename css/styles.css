@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 !important;
+    height: 100vsh;
+}
+
+.diagram {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.diagram:hover {
+    transform: scale(1.05);
+}
+
+.bg-spotify {
+    background-color: #272727 !important;
+}
+
+.bg-sp2 {
+    background-color: #303030 !important;
+}
+
+.color-sp,
+h2 {
+    color: #1db954 !important;
+}
+
+.navbar {
+    color: white !important;
+}
+
+.white-text {
+    color: white;
+}
+
+.navbar-toggler {
+    color: white !important;
+    fill: white !important;
+    background-color: white !important;
+    border-color: white !important;
+}
